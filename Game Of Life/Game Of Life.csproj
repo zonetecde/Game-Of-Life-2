@@ -6,10 +6,16 @@
     <RootNamespace>Game_Of_Life</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>gof_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="gof_icon.png" />
     <None Remove="modele.zdt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="gof_icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +25,10 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="WpfInfiniteBoard" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="gof_icon.png" />
   </ItemGroup>
 
 </Project>

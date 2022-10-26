@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Game_Of_Life"
         mc:Ignorable="d"       
-        Title="Game Of Life" d:Width="500" d:Height="500" MinHeight="450" MinWidth="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" ContentRendered="Window_ContentRendered">
+        Title="Game Of Life" d:Width="500" d:Height="500" MinHeight="450" MinWidth="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" ContentRendered="Window_ContentRendered" Icon="/gof_icon.png">
     <Grid>
         <Grid>
             <InfiniteBoard:InfiniteBoardControl x:Name="InfiniteBoard" Background="White" Foreground="#FFC1C1C1" PlacedCellBackground="Black" PlacedCellBorderBrush="Black" PlacedCellHaveBorder="True" AllowUserToZoom="True" AllowUserToPlaceCells="True" AllowUserToMoveAround="True" />
